@@ -67,25 +67,10 @@ public class CCuenta {
 	 * 
 	 * @return
 	 */
-	public String getNombre() {
-		return nombre;
-	}
-
-	/**
-	 * 
-	 * @return
-	 */
 	public String obtenerNombre() {
 		return getNombre();
 	}
 
-	/**
-	 * 
-	 * @param nombre
-	 */
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
 
 	/**
 	 * 
@@ -99,63 +84,40 @@ public class CCuenta {
 	 * 
 	 * @return
 	 */
-	public String getCuenta() {
-		return cuenta;
-	}
-
-	/**
-	 * 
-	 * @return
-	 */
-	public String obtenerCuenta() {
-		return getCuenta();
-	}
-
-	/**
-	 * 
-	 * @param cuenta
-	 */
-	public void setCuenta(String cuenta) {
-		this.cuenta = cuenta;
-	}
-
-	/**
-	 * 
-	 * @return
-	 */
-	public double getSaldo() {
-		return saldo;
-	}
-
-	/**
-	 * 
-	 * @return
-	 */
 	public double estado() {
 		return getSaldo();
 	}
 
-	/**
-	 * 
-	 * @param saldo
-	 */
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getCuenta() {
+		return cuenta;
+	}
+
+	public void setCuenta(String cuenta) {
+		this.cuenta = cuenta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
 
-	/**
-	 * 
-	 * @return
-	 */
 	public double getTipoInteres() {
 		return tipoInteres;
 	}
 
-	/**
-	 * 
-	 * @param tipoInteres
-	 */
 	public void setTipoInteres(double tipoInteres) {
 		this.tipoInteres = tipoInteres;
 	}
+
 }

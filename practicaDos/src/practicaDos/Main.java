@@ -15,7 +15,7 @@ public class Main {
 	}
 
 	/**
-	 * MÃ©todo que llama a los mÃ©todos de la clase CCuenta para operar
+	 * Método que llama a los métodos de la clase CCuenta para operar
 	 * 
 	 * @param cuentaUno = objeto de la clase CCuenta
 	 * @param cantidad  = cantidad con la que operar
